@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catálogo de Produtos</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topo">
+<h1>Catálogo</h1>
+<div class="controles">
+<input type="text" id="campoBusca" placeholder="Buscar produto...">
+<select id="filtroCategoria">
+<option value="todos">Todas categorias</option>
+<option value="fechaduras">Fechaduras</option>
+<option value="puxadores">Puxadores</option>
+<option value="janelas">Fechos de Janela</option>
+</select>
+<button onclick="mudarLayout('grid')">Grade</button>
+<button onclick="mudarLayout('list')">Lista</button>
+</div>
+</header>
+
+<main id="catalogo" class="grid"></main>
+
+<div id="modal" class="modal">
+<div class="modal-conteudo">
+<span class="fechar" onclick="fecharModal()">✖</span>
+<img id="modalImagem">
+<h2 id="modalNome"></h2>
+<p id="modalDescricao"></p>
+</div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
