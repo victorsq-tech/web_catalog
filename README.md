@@ -2,6 +2,8 @@
 
 Uma aplicação de catálogo web construída com JavaScript.
 
+[Clique aqui para acessar o Catálogo](https://victorsq-tech.github.io/web_catalog/catalogo/index.html)
+
 ## 🚀 Recursos
 
 - Listagem de produtos
